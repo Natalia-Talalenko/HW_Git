@@ -124,7 +124,7 @@ letter-spacing: -0.5px;
 }
 
 .description__text {
-    margin-top: 34px;
+    margin-top: 20px;
     width: 456px;
 min-height: 102px;
 color: #2B292D;
@@ -140,7 +140,7 @@ font-weight: 400;
     font-size: 18px;
     font-weight: 700;
     border:white;
-    margin-top: 58px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
