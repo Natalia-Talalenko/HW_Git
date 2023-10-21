@@ -1,0 +1,59 @@
+.white-section {
+    min-height: 415px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 106px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 293px;
+    height: 335px;
+}
+
+.box:hover {
+    width: 343px;
+    height: 415px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 11px 55px 0px rgba(0, 0, 0, 0.07), 0px 13px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+.box__text {
+    color: #2B292D;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.box__link {
+    color: #3041C4;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 33px;
+}
+
+@media (max-width:950px) {
+    .main-box {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+}
+
+
+

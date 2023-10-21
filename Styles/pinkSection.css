@@ -1,0 +1,215 @@
+.pink-section {
+    height: 710px;
+    background-color: #F9D9EB;
+    padding-left: 130px;
+    padding-top: 39px;
+    padding-right: 130px;
+    background-image: url(../Images/pink_women.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__text {
+    color: rgba(43, 41, 45, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+line-height: 25px;
+}
+
+.header__text--bold {
+    color: #2B292D;
+font-size: 20px;
+font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+#nav__toggle {
+   display: none;
+}
+
+.nav__bar {
+   position: relative;
+    display: flex;
+    
+}
+
+.nav__bar--button {
+    display: none;
+}
+.nav__toggle {
+    display: none;
+    position: relative;
+    border: 0;
+    background: none;
+}
+
+
+.nav__toggle--lable {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav__barUl {
+    display: flex;
+    justify-content: space-between;
+    width: 273px;
+}
+
+.nav__barLink {
+    color: #2B292D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.nav__barLi {
+    list-style: none;
+}
+
+.nav__barLink--bold {
+    font-weight: 700;
+}
+
+.nav__icon {
+width: 5px;
+height: 8px;
+margin-left: 11px;
+margin-right: 87px;
+}
+
+.button-GetStarted {
+    width: 160px;
+height: 48px;
+background-color: #3040C4;
+color: #FFF;
+font-size: 18px;
+font-weight: 700;
+line-height: 13px; 
+border: #3040C4;
+}
+
+.description  {
+    margin-top: 81px;
+}
+
+.description__title {
+    width: 700px;
+    min-height: 165px;
+color: #2B292D;
+font-size: 80px;
+font-weight: 700;
+line-height: 78px; /* 97.5% */
+letter-spacing: -0.5px;
+}
+
+.description__text {
+    margin-top: 34px;
+    width: 456px;
+min-height: 102px;
+color: #2B292D;
+font-size: 24px;
+font-weight: 400;
+}
+
+.button-LearnMore {
+    width: 158px;
+    height: 48px;
+    background-color: white;
+    color: #3040C4;
+    font-size: 18px;
+    font-weight: 700;
+    border:white;
+    margin-top: 58px;
+    margin-left: 10px;
+}
+
+@media (max-width:950px) {
+    .nav__bar--button {
+        display: block;
+    }
+   .nav__bar {
+        padding-right: 90px;
+    }
+    .nav__barUl {
+        margin-top: 30px;
+    }
+
+    .nav__toggle {
+        display: inline-block;
+    }
+
+    .nav__barUl {
+        display: none;
+    }
+
+    .nav__icon {
+        display: none;
+    }
+        
+    #nav__toggle:checked ~ .nav__barUl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background: #FFF;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 0px;
+        left: 0; 
+        }
+       
+}
+
+
+
+@media (max-width:690px) {
+    .description__title {
+        width: 450px;
+    font-size: 55px;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:510px) {
+    .description__title {
+    width: 250px;
+    font-size: 30px;
+    line-height: 35px;
+    min-height: 100px;
+    }
+    .description__text {
+        font-size: 18px;
+        width: 300px;
+    }
+}
+
+@media (max-width:320px) {
+    .description__text {
+        width: 250px;
+    }
+}
