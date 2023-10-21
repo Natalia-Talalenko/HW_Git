@@ -1,0 +1,27 @@
+.nav__hamburger {
+
+    border-bottom: 12px double rgb(28, 27, 27);
+  border-top: 4px solid rgb(13, 12, 12);
+  content: "";
+  height: 4px;
+  width: 30px;
+  box-sizing: unset;
+  display: inline-block;
+  vertical-align: middle;
+    /*display: none;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0 25px;
+}
+
+.nav__hamburger::before {
+    content: "" ;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    border-top: 3px solid black;*/
+}
