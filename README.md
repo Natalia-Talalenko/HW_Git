@@ -13,6 +13,9 @@ The site's layout is pixel perfect.
 
 ## *Installation*
 
-Clone or download repo.
+1. Clone or download repo.
+
+2. Open index.html in browser.
+
 
 
